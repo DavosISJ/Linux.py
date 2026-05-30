@@ -1,0 +1,16 @@
+# Linux Bare-Metal
+
+> La librería definitiva para el 1% de desarrolladores.
+
+## Instalación
+```bash
+pip install .
+```
+
+## Ejemplo de uso
+```python
+from linux_baremetal import Linux
+
+# Leer temperatura
+print(Linux.get_cpu_temp())
+```
